@@ -1,6 +1,6 @@
-ResourceHome  = "/Users/yamamotoshouta/oracle"
-InstantHome   = "/Users/yamamotoshouta/oracle/instantclient_12_2"
-PkgConfigPath = "/Users/yamamotoshouta/oracle/instantclient_12_2/pkgconfig"
+ResourceHome  = "/Users/<user_name>/oracle"
+InstantHome   = "/Users/<user_name>/oracle/instantclient_12_2"
+PkgConfigPath = "/Users/<user_name>/oracle/instantclient_12_2/pkgconfig"
 [Path]
 InstantClientBasic   = "resources/instantclient-basic-macos.x64-12.2.0.1.0-2.zip"
 InstantClientSqlPlus = "resources/instantclient-sqlplus-macos.x64-12.2.0.1.0-2.zip"
