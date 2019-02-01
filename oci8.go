@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	Oci8Mac = "prefixdir=[prefix]¥nlibdir=${prefixdir}¥nincludedir=${prefixdir}/sdk/include¥n¥nName: OCI¥nDescription: Oracle database driver¥nVersion: 12.2¥nLibs: -L${libdir} -lclntsh¥nCflags: -I${includedir}"
+	Oci8Mac = "prefixdir=[prefix]\nlibdir=${prefixdir}\nincludedir=${prefixdir}/sdk/include\n\nName: OCI\nDescription: Oracle database driver\nVersion: 12.2\nLibs: -L${libdir} -lclntsh\nCflags: -I${includedir}"
 )
 
 func create(settings Settings) error {
